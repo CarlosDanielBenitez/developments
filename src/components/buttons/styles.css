@@ -1,0 +1,38 @@
+.btnContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+.btnCapsule{
+    display: flex;
+    gap: 5px;
+    margin-top: .5rem;
+}
+.addBtn {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 1rem;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .addBtn:hover {
+    background-color: #45a049;
+  }
+  
+  .minusBtn {
+
+    background-color: #f443367c;
+    color: white;
+    border: none;
+    border-radius: 1rem;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .minusBtn:hover {
+    background-color: #d32f2f;
+  }

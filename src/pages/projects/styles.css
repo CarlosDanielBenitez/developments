@@ -1,0 +1,30 @@
+.cardContainer{
+width: 100%;
+display: flex;
+padding-top: 50px;
+}
+.card {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1rem;
+  }
+  
+  /* Agrega más estilos según tus preferencias */
+  
